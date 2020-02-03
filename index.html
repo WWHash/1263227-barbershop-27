@@ -16,8 +16,9 @@
               <li><a href="#">Контакты</a></li>
             </ul>
             <ul>
-              <li><button type="button">
-                    <img src="img/login.svg" width="14" height="14"/>ВХОД</button></li>
+              <li><a href="login.html">
+                    <img src="img/login.svg" width="14" height="14"/>ВХОД</a>
+              </li>
             </ul>
       </nav>
   </header>
@@ -85,7 +86,32 @@
       <section>
         <h2>Записаться</h2>
             <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-                        <!-- поле для формы -->
+                      
+          <form action="https://echo.htmlacademy.ru" method="GET">
+           <p> 
+             <label for="date">Дата
+                 <input type="date" name="date" id="date"/>
+            </label></p>
+
+          <p> 
+            <label for="time">Время
+              <input type="time" name="time" id="time"/>
+            </label></p>
+
+          <p> 
+            <label for="name">Ваше имя
+              <input type="text" name="name" id="name"/>
+            </label></p>
+
+          <p>
+            <label for="tel">Телефон
+              <input type="tel" name="tel" id="tel"/>
+            </label></p>
+
+            <button type="submit">Отправить</button>
+         
+          </form> 
+            <!-- поле для формы -->
       </section>
   </main>
   <footer>
@@ -111,11 +137,11 @@
    <section>
           <h2>Личный кабинет</h2>
 
-          <form action="" method="POST">
+          <form action="https://echo.htmlacademy.ru" method="POST">
               <p>Введите свой логин и пароль.</p>
 
-            <label for="login"> Логин
-              <input type="text" name="login" id="login" placeholder="логин"/>
+            <label for="email"> Логин
+              <input type="email" name="email" id="email" placeholder="логин"/>
             </label>
             <br>
             <label for="password">Пароль
@@ -123,18 +149,28 @@
             </label>
             <br>
              <label for="save-me">
-                <input type="checkbox" name="save-me" id="save-me" checked/>
+                <input type="checkbox" name="remember" id="save-me" checked/>
                     Запомни меня</label>
                 <br>
                <div>
-                 <a href="">я забыл пароль!</a>
+                 <a href="">Я забыл пароль!</a>
                </div>
 
                <br>
 
-               <button type="submit">войти</button>
+               <button type="submit">Войти</button>
           </form>
 
+          <button type="button">Закрыть</button>
+
+  </section>
+
+  <section>
+          <h2>Как до нас добраться</h2>
+          <p>
+              <img src="img/map mask.png" width="766" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург"/>
+          </p>
+             <button type="button">Закрыть</button>
   </section>
   
   </body>
