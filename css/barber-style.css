@@ -15,3 +15,162 @@ body {
 a {
     text-decoration: none;
 }
+.inner-page {
+    color: #000000;
+  
+    background-color: #f9f6f3;
+    background-image: url("../img/background-news-gallery.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+  }
+
+.main-nav {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+
+    background-color: #000000;
+}
+.site-nav,
+.user-nav {
+list-style: none;
+}
+.site-nav a,
+.user-nav a {
+    color: #ffffff;
+}
+.site-nav a:hover,
+.site-nav a:focus,
+.user-nav a:hover,
+.user-nav a:focus {
+    background-color: #242424;
+}
+.features-item {
+    list-style: none;
+    text-align: center;
+}
+.features-item h3 {
+    font-size: 30px;
+    line-height: 42px;
+    color: #f7f4f1;
+}
+.features-item p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.index-column {
+    color: #000000;
+
+    background-color: #ffffff;
+    background-image: url("..img/background-news-gallery.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.index-column h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+.news-list  {
+    list-style: none;
+}
+.news-item time {
+    text-transform: none;
+}
+.gallery {
+    background-color: #cccccc;
+    border: 7px solid #ffffff;
+}
+.button {
+    font: inherit;
+    color: #ffffff;
+
+    background-color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: none;
+}
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: #663d15;
+}
+.appointment-item input {
+    font: inherit;
+
+    background-color: transparent;
+    border: 2px solid #000000;
+}
+.appointment-item input:focus {
+    background-color: #663d15;
+}
+.main-footer {
+    color: #ffffff;
+
+    background-color: #212121;
+    background-image: url("..img/background-footer.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.footer-contacts a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+    text-decoration: none;
+}
+.footer-social  {
+    text-align: center;
+}
+.footer-social ul {
+    list-style: none;
+}
+.social-button {
+    color: #ffffff;
+}
+.footer-copyright {
+    text-align: center;
+}
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+    color: #000000;
+
+    background-color: #ffffff;
+}
+.modal {
+    color: #000000;
+
+    background-color: #f8f3f0;
+    background-image: url("../img/background-news-gallery.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+.modal h2 {
+    font-size: 30px;
+    line-height: 42px;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    font: inherit;
+    text-transform: uppercase;
+    color: #000000;
+
+    background-color: #f9f6f3;
+    border: 2px solid #000000;
+}
+.login-form input:focus {
+    background-color: #663d15;
+}
+.login-checkbox:hover,
+.login-checkbox:focus {
+    color: #663d15;
+}
+.restore {
+    color: #000000;
+    text-decoration: underline;
+}
+.restore:hover,
+.restore:focus {
+    text-decoration: none;
+}
